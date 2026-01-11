@@ -1,11 +1,5 @@
-let a = 15
-let b = 3
+let x = 2
 
-// console.log(a+b)
-// console.log(a-b)
-// console.log(a*b)
-// console.log(a/b)
+console.log(x)
 
-console.log(a%b)
-console.log(a++)
-console.log(b--)
+console.log(x+2)
