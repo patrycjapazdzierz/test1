@@ -1,14 +1,11 @@
-let x = 115
-
-// if (x==15){
-//     console.log('Wartosc x = 15')
-// }else if (x<15){
-//     console.log('Wartosc x jest mniejsza od 15')
-// }else if (x>15){
-    // console.log('Wartosc x jest wieksza od 15')
-
-if (x % 2 === 0){
-    console.loge('Jest to liczba parzysta')
-}else{
-    console.log('Jest to liczba nieparzysta')
+let x = 5
+switch (x) {
+    case 1:
+        console.log('x wynosi 1')
+    case 3:
+        console.log('x wynosi 3')  
+    case 5:
+        console.log('x wynosi 5')
+    default:
+        console.log('zadna z powyzszych opcji nie zostala wybrana')          
 }
