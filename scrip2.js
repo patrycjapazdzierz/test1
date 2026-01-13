@@ -1,7 +1,6 @@
-// for (let i = 0 ; i<10 ; i++){
-//     console.log('kolejne przejscie petli  '+i)
-// }
+let i =0
+while (i<10){
+    console.log('kolejne przejscie  '+1)
 
-for (let i = 2 ; i<=10 ; i++){
-    if (i % 2 === 0) console.log(i)
+    i++
 }
